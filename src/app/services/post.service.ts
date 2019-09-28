@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class PostService extends DataService {
-  protected url = 'http://jsonplaceholder.typicode.com/posts';
+  protected url = 'https://jsonplaceholder.typicode.com/posts';
   constructor(http: HttpClient) {
     super(http);
   }
